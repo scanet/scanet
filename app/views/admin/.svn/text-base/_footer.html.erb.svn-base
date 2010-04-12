@@ -1,0 +1,15 @@
+<div class="Footer">
+    <div class="Footer-inner">
+        <div class="Footer-text">
+          <p>
+            <% if logged_in? %>
+              Usuario: <%=h current_user.login %><br>
+              <%= link_to 'Cerrar Sesión', logout_path %>
+            <% else %>
+              S-NET
+            <% end %>
+          </p>
+        </div>
+    </div>
+    <div class="Footer-background"></div>
+</div>

@@ -1,0 +1,25 @@
+<div class="Post">
+  <div class="Post-tl"></div>
+  <div class="Post-tr"><div></div></div>
+  <div class="Post-bl"><div></div></div>
+  <div class="Post-br"><div></div></div>
+  <div class="Post-tc"><div></div></div>
+  <div class="Post-bc"><div></div></div>
+  <div class="Post-cl"><div></div></div>
+  <div class="Post-cr"><div></div></div>
+  <div class="Post-cc"></div>
+  <div class="Post-body">
+<div class="Post-inner">
+  <h2 class="PostHeaderIcon-wrapper">
+      <img src="/images/PostHeaderIcon.png" width="26" height="26" alt="PostHeaderIcon" />
+      <span class="PostHeader">VISUALIZACION DE PLANO Y EQUIPOS</span>
+  </h2>
+  <div class="PostContent">
+    <iframe width="100%" height="800px" src="http://localhost:4000/gmap-demo/mapa2.php" frameborder="0" scrolling="no">
+      Error en el navegador.
+    </iframe>
+  </div>
+  <div class="cleared"></div>
+</div>
+</div>
+</div>

@@ -1,0 +1,3 @@
+class HardwareReport < ActiveRecord::Base
+  belongs_to :workstation
+end

@@ -1,0 +1,41 @@
+<%= render :partial => "admin/section_top" %>
+
+<table class="wmi" cellpadding="0">
+  <tr>
+    <th class="wmi" colspan="2">Nombre</th>
+    <th class="wmi">IP</th>
+    <th class="wmi">Ubicación</th>
+    <th class="wmi" colspan="4">Reportes</th>
+  </tr>
+
+<% @workstations.each do |equipo| %>
+  <tr>
+    <td class="wmi">
+      <%#= image_tag("logo_win.png", :size => "20x20") %>
+      <%= link_to image_tag("delete.png", :size => "20x20"), equipo, :confirm => 'Desea eliminar este equipo ?', :method => :delete %>
+    </td>
+    <td class="wmi" style="color:green"><b><%= h equipo.name %></b></td>
+    <td class="wmi" style="color:blue">
+      <b><%= h (equipo.ip == "0.0.0.0") ? "Dinámica (DHCP)" : equipo.ip %></b>
+    </td>
+    <td class="wmi"><b><%= h equipo.ubication.name %></b></td>
+    <td class="wmi">
+      <%= link_to image_tag("boton_hw.png"), { :action => "hw_report", :id => equipo.id }, :popup => ['hw_report', 'height=600,width=1000,scrollbars=yes'] %>
+    </td>
+    <td class="wmi">
+      <%= link_to image_tag("boton_sw.png"), { :action => "sw_report", :id => equipo.id }, :popup => ['sw_report', 'height=600,width=1000,scrollbars=yes'] %>
+    </td>
+    <td class="wmi">
+      <%= link_to image_tag("boton_historial.png"), { :action => "history", :id => equipo.id }, :popup => ['historial', 'height=600,width=1000,scrollbars=yes'] %>
+    </td>
+    <td class="wmi">
+      <%= link_to image_tag("boton_alarmas.png"), { :action => "alarms", :id => equipo.id }, :popup => ['alarmas', 'height=600,width=1000,scrollbars=yes'] %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%#= link_to 'Nuevo Equipo' %>
+<%= render :partial => "admin/section_foot" %>

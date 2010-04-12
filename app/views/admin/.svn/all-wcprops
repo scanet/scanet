@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/snet~subversion/!svn/ver/2/snet/app/views/admin
+END
+_left_column.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/snet~subversion/!svn/ver/2/snet/app/views/admin/_left_column.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/snet~subversion/!svn/ver/13/snet/app/views/admin/index.html.erb
+END
+workstations.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/snet~subversion/!svn/ver/24/snet/app/views/admin/workstations.html.erb
+END
+plano.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/snet~subversion/!svn/ver/24/snet/app/views/admin/plano.html.erb
+END
+inicio.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/snet~subversion/!svn/ver/11/snet/app/views/admin/inicio.html.erb
+END
+_main_content.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/snet~subversion/!svn/ver/2/snet/app/views/admin/_main_content.html.erb
+END
+wmi_configuration.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/snet~subversion/!svn/ver/24/snet/app/views/admin/wmi_configuration.html.erb
+END
+ajax_regenerate_webservice.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/snet~subversion/!svn/ver/20/snet/app/views/admin/ajax_regenerate_webservice.rjs
+END
+_section_top.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/snet~subversion/!svn/ver/2/snet/app/views/admin/_section_top.html.erb
+END
+insertar.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/snet~subversion/!svn/ver/7/snet/app/views/admin/insertar.html.erb
+END
+_section_foot.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/snet~subversion/!svn/ver/13/snet/app/views/admin/_section_foot.html.erb
+END
+_footer.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/snet~subversion/!svn/ver/13/snet/app/views/admin/_footer.html.erb
+END
+_webservice.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/snet~subversion/!svn/ver/17/snet/app/views/admin/_webservice.html.erb
+END
+run_tool.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/snet~subversion/!svn/ver/10/snet/app/views/admin/run_tool.html.erb
+END
+wmi_configuration.html_1.erb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/snet~subversion/!svn/ver/10/snet/app/views/admin/wmi_configuration.html_1.erb
+END
+_menu.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/snet~subversion/!svn/ver/23/snet/app/views/admin/_menu.html.erb
+END

@@ -1,0 +1,84 @@
+<html>
+  <head>
+    <%= javascript_include_tag "script" %>
+    <%= javascript_include_tag :defaults %>
+    <%= stylesheet_link_tag 'scaffold' %>
+    <%= stylesheet_link_tag 'style', :media => "screen" %>
+    <title>Reporte de Hardware</title>
+  </head>
+  <body>
+    <%= render :partial => "admin/section_top" %>
+    <div class="wmi_div">
+      <table class="wmi" cellpadding="2">
+        <tr>
+          <td valign="top">
+            <table class="wmi" cellpadding="0">
+              <tr>
+                <th class="wmi">DISPOSITIVOS</th>
+              </tr>
+              <% @wmi_classes.each do |wc| %>
+              <tr>
+                <th class="wmi" style="text-align:left;background-color:transparent">
+                  <%= link_to_remote("<b>"+wc.alias + "</b>",
+                    :url => {:controller => "workstations", :action => "ajax_show_wmi_properties", :wmi_class => wc.id, :workstation => @workstation.id },
+                    :loading => "Element.show('wmi_properties_response_spinner')", :complete => "Element.hide('wmi_properties_response_spinner')")
+                  %>
+                </th>
+              </tr>
+              <% end %>
+            </table>
+          </td>
+          <td valign="top">
+            <table class="wmi" cellpadding="0">
+              <tr style="vertical-align:top">
+                <th class="wmi">Valores</th>
+              </tr>
+              <tr>
+                <td class="wmi">
+                  <div id="wmi_properties_response_div">
+                    <%= render :partial => "wmi_properties" if params[:wmi_class] %>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <div align="center">
+      <%= "<span id='wmi_properties_response'></span>" %>
+      <%= "<span id='wmi_properties_response_spinner' style='display:none'>"+image_tag("spinner4.gif")+"</span>" %>
+      </div>
+      
+      <!--
+      <table class="wmi" cellpadding="0">
+        <tr>
+          <th class="wmi">Dispositivo</th>
+          <th class="wmi">Propiedad</th>
+          <th class="wmi">Valor</th>
+        </tr>
+
+      <%# @hardware.each do |h| %>
+        <tr>
+          <td class="wmi"><%#= "<b>"+h.wmi_property.wmi_class.alias + "</b> ("+h.wmi_property.wmi_class.name+")" %></td>
+          <td class="wmi"><%#= "<b>"+h.wmi_property.alias + "</b> ("+h.wmi_property.name+")" %></td>
+          <td class="wmi"><%#= "<b>"+h.value+"</b>" %></td>
+        </tr>
+      <%# end %>
+      <tr>
+        <td class="wmi" colspan="3" style="text-align:center">
+          <%#= will_paginate @hardware, :prev_label => "<b>Anterior</b>", :next_label => "<b>Siguiente</b>" %>
+        </td>
+      </tr>
+      </table>
+    -->
+    <br><br>
+    <form method="post">
+    <center>
+      <input type="button" value="Cerrar Ventana" onclick="window.close()">
+    </center>
+    </form>
+    </div>
+    <%= render :partial => "admin/section_foot" %>
+  </body>
+</html>

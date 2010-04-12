@@ -1,0 +1,51 @@
+<div class="Post">
+  <div class="Post-tl"></div>
+  <div class="Post-tr"><div></div></div>
+  <div class="Post-bl"><div></div></div>
+  <div class="Post-br"><div></div></div>
+  <div class="Post-tc"><div></div></div>
+  <div class="Post-bc"><div></div></div>
+  <div class="Post-cl"><div></div></div>
+  <div class="Post-cr"><div></div></div>
+  <div class="Post-cc"></div>
+  <div class="Post-body">
+<div class="Post-inner">
+  <h2 class="PostHeaderIcon-wrapper">
+      <!--<img src="/images/PostHeaderIcon.png" width="26" height="26" alt="PostHeaderIcon" />
+       <span class="PostHeader">S-NET</span> -->
+  </h2>
+  <div class="PostContent">
+    <br><br>
+      <table class="wmi" align="center" style="width:350px">   
+        <% if logged_in? %>
+          <tr>
+            <th class="wmi">
+                Bienvenido: <%=h current_user.login %>
+            </th>
+          </tr>
+          <tr>
+            <td class="wmi">
+              <%= link_to 'Cerrar Sesión', logout_path %>
+            </td>
+          </tr>
+        <% else %>
+          <tr>
+            <th class="wmi">
+              No ha iniciado sesión
+            </th>
+          </tr>
+          <tr>
+            <td class="wmi">
+              <%= link_to 'Ingresar al sistema', login_path %><br>
+                <%#= link_to 'Registro', signup_path %>
+            </td>
+          </tr>
+        <% end %>
+      </table>
+    <br><br>
+  </div>
+  <div class="cleared"></div>
+</div>
+
+  </div>
+</div>

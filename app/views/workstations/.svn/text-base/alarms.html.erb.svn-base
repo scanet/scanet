@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <%= javascript_include_tag "script" %>
+    <%= stylesheet_link_tag 'scaffold' %>
+    <%= stylesheet_link_tag 'style', :media => "screen" %>
+    <title>Alarmas</title>
+  </head>
+  <body>
+    <%= render :partial => "admin/section_top" %>
+    <div class="wmi_div">
+      <table class="wmi" cellpadding="0">
+        <tr>
+          <th class="wmi">Dispositivo</th>
+          <th class="wmi">Propiedad</th>
+          <th class="wmi">Valor Original</th>
+          <th class="wmi">Valor Reportada</th>
+          <th class="wmi">Fecha de Reporte</th>
+          <!--<th class="wmi">Acciones</th>-->
+        </tr>
+
+      <% @alarm.each do |a| %>
+        <tr>
+          <td class="wmi" style="color:navy"><%= "<b>"+a.wmi_property.wmi_class.alias + "</b> ("+a.wmi_property.wmi_class.name+")" %></td>
+          <td class="wmi" style="color:navy"><%= "<b>"+a.wmi_property.alias + "</b> ("+a.wmi_property.name+")" %></td>
+          <td class="wmi" style="color:green"><%= "<b>"+a.original+"</b>" %></td>
+          <td class="wmi" style="color:red;text-align:center"><%= a.reported.blank? ? "<b>SIN DATOS</b>" : "<b>"+a.reported+"</b>" %></td>
+          <td class="wmi"><%= "<b>"+a.created_at.in_time_zone("Bogota"). to_s+"</b>" %></td>
+          <!--<td class="wmi"></td>-->
+        </tr>
+      <% end %>
+        <tr>
+          <td class="wmi" colspan="3" style="text-align:center">
+            <%= will_paginate @alarm, :prev_label => "<b>Anterior</b>", :next_label => "<b>Siguiente</b>" %>
+          </td>
+        </tr>
+      </table>
+    <br><br>
+    <form method="post">
+    <center>
+      <input type="button" value="Cerrar Ventana" onclick="window.close()">
+    </center>
+    </form>
+    </div>
+    <%= render :partial => "admin/section_foot" %>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<% if current_user.rol == "admin" %>
+<div class="nav">
+    <ul class="artmenu">
+        <li><a href="/" class=" active"><span><span>Inicio</span></span></a></li>
+        <li><a href="/admin/plano/0"><span><span>Plano</span></span></a></li>
+        <li><a href="/workstations/"><span><span>Equipos</span></span></a></li>
+        <li><a href="/alarms/"><span><span>Alarmas</span></span></a></li>
+        <li><a href="/tools"><span><span>Herramientas</span></span></a></li>
+        <li><a href="/ubications"><span><span>Ubicaciones</span></span></a></li>
+        <li><a href="/users"><span><span>Usuarios</span></span></a></li>
+        <li><a href="/admin/wmi_configuration/0"><span><span>Configuración</span></span></a></li>
+    </ul>
+    <div class="l">
+    </div>
+    <div class="r">
+        <div>
+        </div>
+    </div>
+</div>
+<% elsif current_user.rol == "tecnico" %>
+<div class="nav">
+    <ul class="artmenu">
+        <li><a href="/" class=" active"><span><span>Inicio</span></span></a></li>
+        <li><a href="/admin/plano/0"><span><span>Plano</span></span></a></li>
+        <li><a href="/workstations/"><span><span>Equipos</span></span></a></li>
+        <li><a href="/alarms/"><span><span>Alarmas</span></span></a></li>
+        <li><a href="/tools"><span><span>Herramientas</span></span></a></li>
+        <li><a href="/ubications"><span><span>Ubicaciones</span></span></a></li>
+    </ul>
+    <div class="l">
+    </div>
+    <div class="r">
+        <div>
+        </div>
+    </div>
+</div>
+<% end %>

@@ -1,0 +1,18 @@
+<p>
+  <b>Workstation:</b>
+  <%=h @hardware_report.workstation_id %>
+</p>
+
+<p>
+  <b>Wmi property:</b>
+  <%=h @hardware_report.wmi_property_id %>
+</p>
+
+<p>
+  <b>Value:</b>
+  <%=h @hardware_report.value %>
+</p>
+
+
+<%= link_to 'Edit', edit_hardware_report_path(@hardware_report) %> |
+<%= link_to 'Back', hardware_reports_path %>

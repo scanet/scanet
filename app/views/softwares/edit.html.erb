@@ -1,0 +1,24 @@
+<h1>Editing software</h1>
+
+<% form_for(@software) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :workstation_id %><br />
+    <%= f.text_field :workstation_id %>
+  </p>
+  <p>
+    <%= f.label :wmi_property_id %><br />
+    <%= f.text_field :wmi_property_id %>
+  </p>
+  <p>
+    <%= f.label :value %><br />
+    <%= f.text_field :value %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @software %> |
+<%= link_to 'Back', softwares_path %>

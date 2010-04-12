@@ -1,0 +1,27 @@
+<%= render :partial => "admin/section_top" %>
+<div class="wmi_div">
+<p>
+  <b>WMI Namespace:</b>
+  <%=h @wmi_class.wmi_namespace.name %>
+</p>
+
+<p>
+  <b>Nombre:</b>
+  <%=h @wmi_class.name %>
+</p>
+
+<p>
+  <b>Alias:</b>
+  <%=h @wmi_class.alias %>
+</p>
+
+<p>
+  <b>Descripción:</b>
+  <%=h @wmi_class.description %>
+</p>
+
+
+<%= link_to 'Editar', edit_wmi_class_path(@wmi_class) %> |
+<%= link_to 'Atras', wmi_classes_path %>
+</div>
+<%= render :partial => "admin/section_foot" %>

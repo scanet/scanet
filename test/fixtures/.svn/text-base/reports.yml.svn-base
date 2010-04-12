@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  wmi_property_id: 1
+  wmi_property_value: MyString
+  workstation_id: MyString
+
+two:
+  wmi_property_id: 1
+  wmi_property_value: MyString
+  workstation_id: MyString

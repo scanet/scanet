@@ -1,0 +1,26 @@
+<%= render :partial => "admin/section_top" %>
+<div class="wmi_div">
+<% form_for(@wmi_namespace) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label "Nombre" %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label "Alias" %><br />
+    <%= f.text_field :alias %>
+  </p>
+  <p>
+    <%= f.label "Descripción" %><br />
+    <%= f.text_area :description, :cols => 34, :rows => 3 %>
+  </p>
+  <p>
+    <%= f.submit 'Actualizar' %>
+  </p>
+<% end %>
+
+<%= link_to 'Ver', @wmi_namespace %> |
+<%= link_to 'Atras', wmi_namespaces_path %>
+</div
+<%= render :partial => "admin/section_foot" %>

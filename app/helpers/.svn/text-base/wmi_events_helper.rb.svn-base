@@ -1,0 +1,2 @@
+module WmiEventsHelper
+end

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/snet~subversion/!svn/ver/2/snet/app/models
+END
+tool.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/snet~subversion/!svn/ver/8/snet/app/models/tool.rb
+END
+ubication.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/snet~subversion/!svn/ver/17/snet/app/models/ubication.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/snet~subversion/!svn/ver/23/snet/app/models/user.rb
+END
+client.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/snet~subversion/!svn/ver/7/snet/app/models/client.rb
+END
+wmi_class.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/snet~subversion/!svn/ver/14/snet/app/models/wmi_class.rb
+END
+workstation.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/snet~subversion/!svn/ver/23/snet/app/models/workstation.rb
+END
+software_report.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/snet~subversion/!svn/ver/16/snet/app/models/software_report.rb
+END
+hardware_report.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/snet~subversion/!svn/ver/16/snet/app/models/hardware_report.rb
+END
+software.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/snet~subversion/!svn/ver/15/snet/app/models/software.rb
+END
+alarm.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/snet~subversion/!svn/ver/16/snet/app/models/alarm.rb
+END
+wmi_method.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/snet~subversion/!svn/ver/2/snet/app/models/wmi_method.rb
+END
+wmi_event.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/snet~subversion/!svn/ver/2/snet/app/models/wmi_event.rb
+END
+hardware.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/snet~subversion/!svn/ver/15/snet/app/models/hardware.rb
+END
+wmi_property.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/snet~subversion/!svn/ver/16/snet/app/models/wmi_property.rb
+END
+configuration.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/snet~subversion/!svn/ver/24/snet/app/models/configuration.rb
+END
+wmi_namespace.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/snet~subversion/!svn/ver/2/snet/app/models/wmi_namespace.rb
+END
+report.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/snet~subversion/!svn/ver/7/snet/app/models/report.rb
+END

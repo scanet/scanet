@@ -1,0 +1,23 @@
+<%= render :partial => "admin/section_top" %>
+<div class="wmi_div">
+<%= error_messages_for :user %>
+<% form_for :user, :url => users_path do |f| -%>
+<p><label for="login">Usuario</label><br/>
+<%= f.text_field :login %></p>
+
+<p><label for="email">Email</label><br/>
+<%= f.text_field :email %></p>
+
+<p><label for="tipo">Tipo de Usuario</label><br/>
+<%= select("user","rol", User.roles, {}) %>
+
+<p><label for="password">Constraseña</label><br/>
+<%= f.password_field :password %></p>
+
+<p><label for="password_confirmation">Contraseña (de nuevo)</label><br/>
+<%= f.password_field :password_confirmation %></p>
+
+<p><%= submit_tag 'Registrar' %></p>
+<% end -%>
+</div>
+<%= render :partial => "admin/section_foot" %>

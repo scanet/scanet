@@ -1,0 +1,24 @@
+<h1>Editing alarm</h1>
+
+<% form_for(@alarm) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :workstation_id %><br />
+    <%= f.text_field :workstation_id %>
+  </p>
+  <p>
+    <%= f.label :original %><br />
+    <%= f.text_field :original %>
+  </p>
+  <p>
+    <%= f.label :reported %><br />
+    <%= f.text_field :reported %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @alarm %> |
+<%= link_to 'Back', alarms_path %>

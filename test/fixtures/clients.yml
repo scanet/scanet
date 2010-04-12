@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  wmi_namespace_id: 1
+  wmi_class_id: 1
+  wmi_property_id: 1
+  wmi_namespace_name: MyString
+  wmi_class_name: MyString
+  wmi_property_name: MyString
+
+two:
+  wmi_namespace_id: 1
+  wmi_class_id: 1
+  wmi_property_id: 1
+  wmi_namespace_name: MyString
+  wmi_class_name: MyString
+  wmi_property_name: MyString

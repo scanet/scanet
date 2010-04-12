@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/snet~subversion/!svn/ver/2/snet/app/views/workstations
+END
+workstation_saved.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/snet~subversion/!svn/ver/9/snet/app/views/workstations/workstation_saved.html.erb
+END
+_wmi_properties.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/snet~subversion/!svn/ver/25/snet/app/views/workstations/_wmi_properties.html.erb
+END
+_ip.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/snet~subversion/!svn/ver/17/snet/app/views/workstations/_ip.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/snet~subversion/!svn/ver/21/snet/app/views/workstations/index.html.erb
+END
+hw_report.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/snet~subversion/!svn/ver/25/snet/app/views/workstations/hw_report.html.erb
+END
+_dhcp.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/snet~subversion/!svn/ver/17/snet/app/views/workstations/_dhcp.html.erb
+END
+alarms.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/snet~subversion/!svn/ver/22/snet/app/views/workstations/alarms.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/snet~subversion/!svn/ver/22/snet/app/views/workstations/show.html.erb
+END
+coordenadas.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/snet~subversion/!svn/ver/9/snet/app/views/workstations/coordenadas.html.erb
+END
+wmi_configuration.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/snet~subversion/!svn/ver/2/snet/app/views/workstations/wmi_configuration.html.erb
+END
+sw_report.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/snet~subversion/!svn/ver/21/snet/app/views/workstations/sw_report.html.erb
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/snet~subversion/!svn/ver/2/snet/app/views/workstations/edit.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/snet~subversion/!svn/ver/22/snet/app/views/workstations/new.html.erb
+END
+ajax_show_wmi_properties.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/snet~subversion/!svn/ver/25/snet/app/views/workstations/ajax_show_wmi_properties.rjs
+END
+history.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/snet~subversion/!svn/ver/21/snet/app/views/workstations/history.html.erb
+END
+ajax_dhcp.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/snet~subversion/!svn/ver/17/snet/app/views/workstations/ajax_dhcp.rjs
+END

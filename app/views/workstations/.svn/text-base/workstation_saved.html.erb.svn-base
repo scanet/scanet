@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <%= javascript_include_tag "script" %>
+    <%= stylesheet_link_tag 'scaffold' %>
+    <%= stylesheet_link_tag 'style', :media => "screen" %>
+    <title>Insertar Equipos</title>
+  </head>
+  <body>
+<%= render :partial => "admin/section_top" %>
+<div class="wmi_div">
+ <table class="wmi">
+  <tr>
+    <td></td>
+  </tr>
+</table>
+  <br>
+</div>
+<%= render :partial => "admin/section_foot" %>

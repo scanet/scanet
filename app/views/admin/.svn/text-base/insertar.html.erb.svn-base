@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Insertar Equipos</title>
+  </head>
+
+  <body onload="setvars()">
+  <script type="text/javascript">
+  function gup(name)
+  {
+    name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+    var regexS = "[\\?&]"+name+"=([^&#]*)";
+    var regex = new RegExp(regexS);
+    var results = regex.exec(window.location.href);
+    if(results == null)
+      return "";
+    else
+      return results[1]
+  }
+  function setvars()
+  {
+    document.formulario.campo.value = gup('x');
+    document.formulario.campo.value = gup('y');
+  }
+</script>
+<form name="formulario" id="formulario">
+  <input name="campo" id="campo">
+</form>
+
+</body>
+</html>

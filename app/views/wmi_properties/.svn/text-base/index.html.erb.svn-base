@@ -1,0 +1,40 @@
+<%= render :partial => "admin/section_top" %>
+<%= link_to "Consultar Base de Datos MSDN WMI", "http://msdn.microsoft.com/en-us/library/aa394084(VS.85,loband).aspx", :target => "_blank" %>
+<br><br>
+<table class="wmi" cellpadding="0">
+  <tr>
+    <th class="wmi">WMI Class</th>
+    <th class="wmi">Nombre</th>
+    <th class="wmi">Alias</th>
+    <th class="wmi" colspan="3">Acciones</th>
+    <th class="wmi">Estado</th>
+  </tr>
+
+<% @wmi_properties.each do |wmi_property| %>
+  <tr>
+    <td class="wmi"><%=h wmi_property.wmi_class.name %></td>
+    <td class="wmi"><%=h wmi_property.name %></td>
+    <td class="wmi"><%=h wmi_property.alias %></td>
+    <td class="wmi"><%= link_to 'Ver', wmi_property %></td>
+    <td class="wmi"><%= link_to 'Editar', edit_wmi_property_path(wmi_property) %></td>
+    <td class="wmi"><%= link_to 'Eliminar', wmi_property, :confirm => 'Está seguro?', :method => :delete %></td>
+    <td class="wmi">
+      <%= check_box_tag "pstate", wmi_property.state, wmi_property.state, :onclick => remote_function( :url => {:controller => 'wmi_properties', :action => 'change_state', :id => wmi_property.id}, :with => "'cvalue='+this.checked", :loading => "Element.show('state_response_spinner_#{wmi_property.id}')", :complete => "Element.hide('state_response_spinner_#{wmi_property.id}')") %>
+      <%= "<span id='state_response#{wmi_property.id}'></span>" %>
+      <%= "<span id='state_response_spinner_#{wmi_property.id}' style='display:none'>"+image_tag("spinner3.gif")+"</span>" %>
+    </td>
+  </tr>
+<% end %>
+  <tr>
+    <td class="wmi" colspan="7" style="text-align:center">
+      <%= will_paginate @wmi_properties, :prev_label => "<b>Anterior</b>", :next_label => "<b>Siguiente</b>" %>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+<%= link_to 'Nuevo WMI Property', new_wmi_property_path %>
+<br>
+<%= link_to 'Volver a Configuración', "admin/wmi_configuration/0" %>
+<%= render :partial => "admin/section_foot" %>

@@ -1,0 +1,3 @@
+<% @hardware.each do |h| %>
+  <%= "<b>"+h.wmi_property.alias + "</b>: <span style='color:teal'><b>"+h.value+"</b></span>" %><br>
+<% end %>

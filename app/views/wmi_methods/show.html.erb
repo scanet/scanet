@@ -1,0 +1,33 @@
+<p>
+  <b>Class:</b>
+  <%=h @wmi_method.wmi_class_id %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%=h @wmi_method.name %>
+</p>
+
+<p>
+  <b>Alias:</b>
+  <%=h @wmi_method.alias %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @wmi_method.description %>
+</p>
+
+<p>
+  <b>Method:</b>
+  <%=h @wmi_method.method %>
+</p>
+
+<p>
+  <b>Parameter:</b>
+  <%=h @wmi_method.parameter %>
+</p>
+
+
+<%= link_to 'Edit', edit_wmi_method_path(@wmi_method) %> |
+<%= link_to 'Back', wmi_methods_path %>

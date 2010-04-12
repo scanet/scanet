@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <%= javascript_include_tag "script" %>
+    <%= stylesheet_link_tag 'scaffold' %>
+    <%= stylesheet_link_tag 'style', :media => "screen" %>
+    <title>EQUIPO</title>
+  </head>
+  <body>
+<%= render :partial => "admin/section_top" %>
+<table class="wmi" cellpadding="0">
+  <tr>
+    <th class="wmi">IP</th>
+    <td class="wmi"><%= h (@workstation.ip == "0.0.0.0") ? "Dinámica (DHCP)" : @workstation.ip %></td>
+  </tr>
+  <tr>
+    <th class="wmi">UBICACION</th>
+    <td class="wmi"><%= h @workstation.ubication.name %></th>
+  </tr>
+</table>
+<br>
+<table class="wmi" cellpadding="0">
+  <tr>
+    <th class="wmi" colspan="4">Reportes</th>
+  </tr>
+  <tr>
+    <td class="wmi">
+      <%= link_to image_tag("boton_hw.png"), { :action => "hw_report", :id => @workstation.id }, :popup => ['hw_report', 'height=600,width=1000,scrollbars=yes'] %>
+    </td>
+    <td class="wmi">
+      <%= link_to image_tag("boton_sw.png"), { :action => "sw_report", :id => @workstation.id }, :popup => ['sw_report', 'height=600,width=1000,scrollbars=yes'] %>
+    </td>
+    <td class="wmi">
+      <%= link_to image_tag("boton_historial.png"), { :action => "history", :id => @workstation.id }, :popup => ['historial', 'height=600,width=1000,scrollbars=yes'] %>
+    </td>
+    <td class="wmi">
+      <%= link_to image_tag("boton_alarmas.png"), { :action => "alarms", :id => @workstation.id }, :popup => ['alarmas', 'height=600,width=1000,scrollbars=yes'] %>
+    </td>
+  </tr>
+</table>
+<br>
+<form method="post">
+<center>
+<input type="button" value="Cerrar Ventana"
+onclick="window.close()">
+</center>
+</form>
+<br>
+<%= render :partial => "admin/section_foot" %>

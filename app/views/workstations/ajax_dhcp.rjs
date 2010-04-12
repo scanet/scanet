@@ -1,0 +1,5 @@
+if @dhcp == "true"
+  page.replace_html :dhcp_div, :partial => "dhcp"
+else
+  page.replace_html :dhcp_div, :partial => "ip"
+end

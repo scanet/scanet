@@ -1,0 +1,33 @@
+<%= render :partial => "admin/section_top" %>
+<div class="wmi_div">
+<% form_for(@tool) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    Nombre<br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    Versión<br />
+    <%= f.text_field :version %>
+  </p>
+  <p>
+    Ruta<br />
+    <%= f.text_field :path %>
+  </p>
+  <p>
+    Comando<br />
+    <%= f.text_field :command %>
+  </p>
+  <p>
+    Parametros<br />
+    <%= f.text_field :params %>
+  </p>
+  <p>
+    <%= f.submit 'Crear' %>
+  </p>
+<% end %>
+
+<%= link_to 'Atras', tools_path %>
+</div>
+<%= render :partial => "admin/section_foot" %>

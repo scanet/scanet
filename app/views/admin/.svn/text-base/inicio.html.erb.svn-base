@@ -1,0 +1,6 @@
+<%= render :partial => "admin/section_top" %>
+
+
+<br />
+<%= link_to 'Regresar a Herramientas',"/tools" %>
+<%= render :partial => "admin/section_foot" %>

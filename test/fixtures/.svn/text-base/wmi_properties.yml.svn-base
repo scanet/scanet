@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  wmi_class_id: 1
+  name: MyString
+  alias: MyString
+  description: MyString
+
+two:
+  wmi_class_id: 1
+  name: MyString
+  alias: MyString
+  description: MyString

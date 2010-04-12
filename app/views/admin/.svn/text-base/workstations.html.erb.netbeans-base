@@ -1,0 +1,24 @@
+<%= render :partial => "admin/section_top" %>
+<h4>Seleccione el Equipo</h4>
+<table class="wmi" cellpadding="0">
+  <tr>
+    <th class="wmi">Nombre</th>
+    <th class="wmi">IP</th>
+    <th class="wmi">Ubicación</th>
+    <th class="wmi" colspan="4">Acción</th>
+  </tr>
+
+<% @workstations.each do |equipo| %>
+  <tr>
+    <td class="wmi"><%= h equipo.name %></td>
+    <td class="wmi"><%= h equipo.ip %></td>
+    <td class="wmi"><%= h equipo.ubication_id %></td>
+    <td class="wmi">
+      <%= link_to image_tag("boton_ejecutar.png"), { :action => "run_tool", :id => equipo.id, :tool => @tool.id }, :popup => ['run_tool', 'height=600,width=800,scrollbars=yes'] %>
+    </td>
+  </tr>
+<% end %>
+</table>
+<br />
+<%= link_to 'Regresar a Herramientas',"/tools" %>
+<%= render :partial => "admin/section_foot" %>

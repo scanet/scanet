@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/snet~subversion/!svn/ver/2/snet/config/environments
+END
+test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/snet~subversion/!svn/ver/2/snet/config/environments/test.rb
+END
+development.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/snet~subversion/!svn/ver/2/snet/config/environments/development.rb
+END
+production.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/snet~subversion/!svn/ver/2/snet/config/environments/production.rb
+END

@@ -1,0 +1,17 @@
+<%= render :partial => "admin/section_top" %>
+<div class="wmi_div">
+<p>
+  <b>Nombre:</b>
+  <%=h @ubication.name %>
+</p>
+
+<p>
+  <b>Descripción:</b>
+  <%=h @ubication.description %>
+</p>
+
+
+<%= link_to 'Editar', edit_ubication_path(@ubication) %> |
+<%= link_to 'Atras', ubications_path %>
+</div>
+<%= render :partial => "admin/section_foot" %>

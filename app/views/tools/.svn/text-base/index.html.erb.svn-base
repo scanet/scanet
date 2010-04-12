@@ -1,0 +1,30 @@
+<%= render :partial => "admin/section_top" %>
+
+<table class="wmi">
+  <tr>
+    <th class="wmi">Nombre</th>
+    <th class="wmi">Version</th>
+    <th class="wmi">Ruta</th>
+    <th class="wmi">Comando</th>
+    <th class="wmi">Parametros</th>
+    <th class="wmi" colspan="3">Acciones</th>
+  </tr>
+
+<% @tools.each do |tool| %>
+  <tr>
+    <td class="wmi" style="color:green"><b><%=h tool.name %></b></td>
+    <td class="wmi"><%=h tool.version %></td>
+    <td class="wmi"><%=h tool.path %></td>
+    <td class="wmi" style="color:blue"><b><%=h tool.command %></b></td>
+    <td class="wmi"><%=h tool.params %></td>
+    <td class="wmi"><%= link_to image_tag("boton_ejecutar.png"), :controller => "admin", :action => "workstations", :id => tool.id %></td>
+    <td class="wmi"><%= link_to image_tag("boton_configurar.png"), edit_tool_path(tool) %></td>
+    <td class="wmi"><%= link_to image_tag("boton_eliminar.png"), tool, :confirm => 'Está Seguro?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Nueva Herramienta', new_tool_path %>
+<%= render :partial => "admin/section_foot" %>

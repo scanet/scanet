@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/snet~subversion/!svn/ver/2/snet/app/controllers
+END
+hardware_reports_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/snet~subversion/!svn/ver/13/snet/app/controllers/hardware_reports_controller.rb
+END
+softwares_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/snet~subversion/!svn/ver/13/snet/app/controllers/softwares_controller.rb
+END
+alarms_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/snet~subversion/!svn/ver/16/snet/app/controllers/alarms_controller.rb
+END
+wmi_methods_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/snet~subversion/!svn/ver/13/snet/app/controllers/wmi_methods_controller.rb
+END
+wmi_events_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/snet~subversion/!svn/ver/13/snet/app/controllers/wmi_events_controller.rb
+END
+hardwares_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/snet~subversion/!svn/ver/13/snet/app/controllers/hardwares_controller.rb
+END
+session_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/snet~subversion/!svn/ver/16/snet/app/controllers/session_controller.rb
+END
+admin_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/snet~subversion/!svn/ver/24/snet/app/controllers/admin_controller.rb
+END
+configurations_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/snet~subversion/!svn/ver/24/snet/app/controllers/configurations_controller.rb
+END
+wmi_namespaces_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/snet~subversion/!svn/ver/13/snet/app/controllers/wmi_namespaces_controller.rb
+END
+reports_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/snet~subversion/!svn/ver/22/snet/app/controllers/reports_controller.rb
+END
+ubications_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/snet~subversion/!svn/ver/23/snet/app/controllers/ubications_controller.rb
+END
+tools_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/snet~subversion/!svn/ver/13/snet/app/controllers/tools_controller.rb
+END
+users_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/snet~subversion/!svn/ver/23/snet/app/controllers/users_controller.rb
+END
+clients_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/snet~subversion/!svn/ver/14/snet/app/controllers/clients_controller.rb
+END
+application_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/snet~subversion/!svn/ver/13/snet/app/controllers/application_controller.rb
+END
+site_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/snet~subversion/!svn/ver/7/snet/app/controllers/site_controller.rb
+END
+workstations_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/snet~subversion/!svn/ver/25/snet/app/controllers/workstations_controller.rb
+END
+software_reports_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/snet~subversion/!svn/ver/13/snet/app/controllers/software_reports_controller.rb
+END
+wmi_properties_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/snet~subversion/!svn/ver/22/snet/app/controllers/wmi_properties_controller.rb
+END
+wmi_classes_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/snet~subversion/!svn/ver/21/snet/app/controllers/wmi_classes_controller.rb
+END

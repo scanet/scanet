@@ -1,0 +1,38 @@
+<%= render :partial => "admin/section_top" %>
+<table width="100%">
+  <tr valign="top">
+    <td width="50%">
+      <table class="wmi" cellspacing="0">
+      <tr>
+        <th class="wmi">CONFIGURACION</th>
+      </tr>
+      <tr>
+        <td class="wmi">
+          <%= link_to "Configuracion General", "/configurations/1" %>
+          <%= link_to image_tag("admin_usuarios.png"), "/users" %><br><br>
+          <%= link_to image_tag("ubicaciones.png"), "/ubications" %><br><br>
+          <%= link_to image_tag("namespaces.png"), "/wmi_namespaces" %><br>
+          <%= link_to image_tag("classes.png"), "/wmi_classes" %><br>
+          <%= link_to image_tag("properties.png"), "/wmi_properties" %><br>
+          <br>
+          <%= link_to_remote image_tag("regenerar_webservice.png"),
+            :url => {:action => "ajax_regenerate_webservice"},
+            :loading => "Element.show('webservice_response_spinner')", :complete => "Element.hide('webservice_response_spinner')"
+          %>
+          <%= "<span id='webservice_response'></span>" %>
+          <%= "<span id='webservice_response_spinner' style='display:none'>"+image_tag("spinner4.gif")+"</span>" %>
+          <br>
+          <%= link_to image_tag("consultar_xml.png"), "/clients.xml", :target => "_blank" %>
+        </td>
+      </tr>
+    </table>
+    </td>
+    <td width="50%">
+      <div id="webservice_response_div">
+        <%= render :partial => "webservice" %>
+      </div>
+    </td>
+  </tr>
+</table>
+<br />
+<%= render :partial => "admin/section_foot" %>

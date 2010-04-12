@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  version: MyString
+  path: MyString
+  command: MyString
+  params: MyString
+
+two:
+  name: MyString
+  version: MyString
+  path: MyString
+  command: MyString
+  params: MyString

@@ -1,0 +1,27 @@
+<%= render :partial => "admin/section_top" %>
+<div class="wmi_div">
+<% form_for(@configuration) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    Dirección IP del servidor<br />
+    <%= f.text_field :ip %>
+  </p>
+  <p>
+    Ruta del Plano<br />
+    <%= f.text_field :map_path %>
+  </p>
+  <p>
+    Hora de envio del reporte<br />
+    <%= f.datetime_select :report_time %>
+  </p>
+  <p>
+    Secuencia de envio del reporte<br />
+    Cada <%= f.text_field :report_seq %> horas
+  </p>
+  <p>
+    <%= f.submit 'Actualizar' %>
+  </p>
+<% end %>
+</div>
+<%= render :partial => "admin/section_foot" %>

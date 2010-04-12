@@ -1,0 +1,24 @@
+<h1>Listing software_reports</h1>
+
+<table>
+  <tr>
+    <th>Workstation</th>
+    <th>Wmi property</th>
+    <th>Value</th>
+  </tr>
+
+<% @software_reports.each do |software_report| %>
+  <tr>
+    <td><%=h software_report.workstation_id %></td>
+    <td><%=h software_report.wmi_property_id %></td>
+    <td><%=h software_report.value %></td>
+    <td><%= link_to 'Show', software_report %></td>
+    <td><%= link_to 'Edit', edit_software_report_path(software_report) %></td>
+    <td><%= link_to 'Destroy', software_report, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New software_report', new_software_report_path %>

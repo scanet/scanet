@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/snet~subversion/!svn/ver/8/snet/app/views/tools
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/snet~subversion/!svn/ver/16/snet/app/views/tools/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/snet~subversion/!svn/ver/16/snet/app/views/tools/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/snet~subversion/!svn/ver/16/snet/app/views/tools/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/snet~subversion/!svn/ver/10/snet/app/views/tools/show.html.erb
+END

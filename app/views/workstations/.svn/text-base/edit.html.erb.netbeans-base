@@ -1,0 +1,48 @@
+<h1>Editing workstation</h1>
+
+<% form_for(@workstation) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :x %><br />
+    <%= f.text_field :x %>
+  </p>
+  <p>
+    <%= f.label :y %><br />
+    <%= f.text_field :y %>
+  </p>
+  <p>
+    <%= f.label :ip %><br />
+    <%= f.text_field :ip %>
+  </p>
+  <p>
+    <%= f.label :code %><br />
+    <%= f.text_field :code %>
+  </p>
+  <p>
+    <%= f.label :mac %><br />
+    <%= f.text_field :mac %>
+  </p>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :ubication_id %><br />
+    <%= f.text_field :ubication_id %>
+  </p>
+  <p>
+    <%= f.label :type %><br />
+    <%= f.text_field :type %>
+  </p>
+  <p>
+    <%= f.label :owner_id %><br />
+    <%= f.text_field :owner_id %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @workstation %> |
+<%= link_to 'Back', workstations_path %>

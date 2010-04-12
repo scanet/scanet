@@ -1,0 +1,32 @@
+<%= render :partial => "admin/section_top" %>
+<div class="wmi_div">
+<p>
+  <b>Nombre:</b>
+  <%=h @tool.name %>
+</p>
+
+<p>
+  <b>Versión:</b>
+  <%=h @tool.version %>
+</p>
+
+<p>
+  <b>Ruta:</b>
+  <%=h @tool.path %>
+</p>
+
+<p>
+  <b>Comando:</b>
+  <%=h @tool.command %>
+</p>
+
+<p>
+  <b>Parametros:</b>
+  <%=h @tool.params %>
+</p>
+
+
+<%= link_to 'Editar', edit_tool_path(@tool) %> |
+<%= link_to 'Atras',  tools_path %>
+</div>
+<%= render :partial => "admin/section_foot" %>

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <title>S-Net</title>
+    <%= javascript_include_tag "script" %>
+    <%= javascript_include_tag :defaults %>
+    <%= stylesheet_link_tag 'scaffold' %>
+    <%= stylesheet_link_tag 'style', :media => "screen" %>
+</head>
+<body>
+<div class="PageBackgroundSimpleGradient"></div>
+    <div class="Main">
+        <div class="Sheet">
+            <div class="Sheet-tl"></div>
+            <div class="Sheet-tr"><div></div></div>
+            <div class="Sheet-bl"><div></div></div>
+            <div class="Sheet-br"><div></div></div>
+            <div class="Sheet-tc"><div></div></div>
+            <div class="Sheet-bc"><div></div></div>
+            <div class="Sheet-cl"><div></div></div>
+            <div class="Sheet-cr"><div></div></div>
+            <div class="Sheet-cc"></div>
+            <div class="Sheet-body">
+                <div class="Header">
+                    <div class="Header-jpeg"></div>
+                    <div class="logo">
+                    </div>
+                </div>
+                  <%= render :partial => "admin/menu" if logged_in? %>
+                <div class="contentLayout">
+                  <%#= render :partial => "admin/left_column" %>
+                    <div class="content">
+                        <%= yield %>
+                    </div>
+                </div>
+                <div class="cleared"></div>
+                  <%= render :partial => "admin/footer" %>
+            </div>
+        </div>
+        <div class="cleared"></div>
+     </div>
+
+</body>
+</html>

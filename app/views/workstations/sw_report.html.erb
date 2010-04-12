@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <%= javascript_include_tag "script" %>
+    <%= stylesheet_link_tag 'scaffold' %>
+    <%= stylesheet_link_tag 'style', :media => "screen" %>
+    <title>Reporte de Software</title>
+  </head>
+  <body>
+    <%= render :partial => "admin/section_top" %>
+    <div class="wmi_div">
+      <table class="wmi" cellpadding="0">
+        <tr>
+          <th class="wmi">Software</th>
+          <th class="wmi">Propiedad</th>
+          <th class="wmi">Valor</th>
+        </tr>
+
+      <% @software.each do |h| %>
+        <tr>
+          <td class="wmi"><%= "<b>"+h.wmi_property.wmi_class.alias + "</b> ("+h.wmi_property.wmi_class.name+")" %></td>
+          <td class="wmi"><%= "<b>"+h.wmi_property.alias + "</b> ("+h.wmi_property.name+")" %></td>
+          <td class="wmi"><%= "<b>"+h.value+"</b>" %></td>
+        </tr>
+      <% end %>
+      <tr>
+        <td class="wmi" colspan="3" style="text-align:center">
+          <%= will_paginate @software, :prev_label => "<b>Anterior</b>", :next_label => "<b>Siguiente</b>" %>
+        </td>
+      </tr>
+      </table>
+    <br><br>
+    <form method="post">
+    <center>
+      <input type="button" value="Cerrar Ventana" onclick="window.close()">
+    </center>
+    </form>
+    </div>
+    <%= render :partial => "admin/section_foot" %>
+  </body>
+</html>

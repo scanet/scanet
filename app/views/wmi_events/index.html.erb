@@ -1,0 +1,28 @@
+<h1>Listing wmi_events</h1>
+
+<table>
+  <tr>
+    <th>Namespace</th>
+    <th>Classname</th>
+    <th>Eventname</th>
+    <th>Condition</th>
+    <th>Value</th>
+  </tr>
+
+<% @wmi_events.each do |wmi_event| %>
+  <tr>
+    <td><%=h wmi_event.wmi_namespace_id %></td>
+    <td><%=h wmi_event.classname %></td>
+    <td><%=h wmi_event.eventname %></td>
+    <td><%=h wmi_event.condition %></td>
+    <td><%=h wmi_event.value %></td>
+    <td><%= link_to 'Show', wmi_event %></td>
+    <td><%= link_to 'Edit', edit_wmi_event_path(wmi_event) %></td>
+    <td><%= link_to 'Destroy', wmi_event, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New wmi_event', new_wmi_event_path %>

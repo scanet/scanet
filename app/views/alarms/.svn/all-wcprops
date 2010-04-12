@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/snet~subversion/!svn/ver/3/snet/app/views/alarms
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/snet~subversion/!svn/ver/3/snet/app/views/alarms/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/snet~subversion/!svn/ver/22/snet/app/views/alarms/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/snet~subversion/!svn/ver/3/snet/app/views/alarms/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/snet~subversion/!svn/ver/3/snet/app/views/alarms/show.html.erb
+END

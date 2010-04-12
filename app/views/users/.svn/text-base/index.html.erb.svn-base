@@ -1,0 +1,24 @@
+<%= render :partial => "admin/section_top" %>
+<table class="wmi" cellpadding="0">
+  <tr>
+    <th class="wmi">LOGIN</th>
+    <th class="wmi">E-MAIL</th>
+    <th class="wmi">TIPO DE USUARIO</th>
+    <th class="wmi">Acciones</th>
+  </tr>
+
+<% @users.each do |u| %>
+  <tr>
+    <td class="wmi"><%=h u.login %></td>
+    <td class="wmi"><%=h u.email %></td>
+    <td class="wmi"><%=h (u.rol == "admin") ? "Administrador" : "Técnico"  %></td>
+    <td class="wmi"><%= (link_to 'Eliminar', u, :confirm => 'Está seguro?', :method => :delete) unless u.login == "admin" %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Nuevo usuario', new_user_path %>
+<br>
+<%= render :partial => "admin/section_foot" %>

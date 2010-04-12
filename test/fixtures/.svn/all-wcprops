@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/snet~subversion/!svn/ver/2/snet/test/fixtures
+END
+alarms.yml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/snet~subversion/!svn/ver/3/snet/test/fixtures/alarms.yml
+END
+wmi_methods.yml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/snet~subversion/!svn/ver/2/snet/test/fixtures/wmi_methods.yml
+END
+wmi_events.yml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/snet~subversion/!svn/ver/2/snet/test/fixtures/wmi_events.yml
+END
+hardwares.yml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/snet~subversion/!svn/ver/2/snet/test/fixtures/hardwares.yml
+END
+configurations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/snet~subversion/!svn/ver/24/snet/test/fixtures/configurations.yml
+END
+wmi_namespaces.yml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/snet~subversion/!svn/ver/2/snet/test/fixtures/wmi_namespaces.yml
+END
+reports.yml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/snet~subversion/!svn/ver/7/snet/test/fixtures/reports.yml
+END
+ubications.yml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/snet~subversion/!svn/ver/17/snet/test/fixtures/ubications.yml
+END
+tools.yml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/snet~subversion/!svn/ver/9/snet/test/fixtures/tools.yml
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/snet~subversion/!svn/ver/13/snet/test/fixtures/users.yml
+END
+clients.yml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/snet~subversion/!svn/ver/7/snet/test/fixtures/clients.yml
+END
+workstations.yml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/snet~subversion/!svn/ver/2/snet/test/fixtures/workstations.yml
+END
+wmi_properties.yml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/snet~subversion/!svn/ver/2/snet/test/fixtures/wmi_properties.yml
+END
+software_reports.yml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/snet~subversion/!svn/ver/2/snet/test/fixtures/software_reports.yml
+END
+wmi_classes.yml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/snet~subversion/!svn/ver/2/snet/test/fixtures/wmi_classes.yml
+END
+hardware_reports.yml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/snet~subversion/!svn/ver/2/snet/test/fixtures/hardware_reports.yml
+END
+softwares.yml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/snet~subversion/!svn/ver/2/snet/test/fixtures/softwares.yml
+END

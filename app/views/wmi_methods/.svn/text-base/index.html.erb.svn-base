@@ -1,0 +1,30 @@
+<h1>Listing wmi_methods</h1>
+
+<table>
+  <tr>
+    <th>Class</th>
+    <th>Name</th>
+    <th>Alias</th>
+    <th>Description</th>
+    <th>Method</th>
+    <th>Parameter</th>
+  </tr>
+
+<% @wmi_methods.each do |wmi_method| %>
+  <tr>
+    <td><%=h wmi_method.wmi_class_id %></td>
+    <td><%=h wmi_method.name %></td>
+    <td><%=h wmi_method.alias %></td>
+    <td><%=h wmi_method.description %></td>
+    <td><%=h wmi_method.method %></td>
+    <td><%=h wmi_method.parameter %></td>
+    <td><%= link_to 'Show', wmi_method %></td>
+    <td><%= link_to 'Edit', edit_wmi_method_path(wmi_method) %></td>
+    <td><%= link_to 'Destroy', wmi_method, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New wmi_method', new_wmi_method_path %>

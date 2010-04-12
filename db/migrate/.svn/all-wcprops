@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/snet~subversion/!svn/ver/2/snet/db/migrate
+END
+20091103200439_add_data_type_to_wmi_classes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/snet~subversion/!svn/ver/14/snet/db/migrate/20091103200439_add_data_type_to_wmi_classes.rb
+END
+20090826191634_create_wmi_classes.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/snet~subversion/!svn/ver/2/snet/db/migrate/20090826191634_create_wmi_classes.rb
+END
+20090826192142_create_wmi_methods.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/snet~subversion/!svn/ver/2/snet/db/migrate/20090826192142_create_wmi_methods.rb
+END
+20090826194840_create_wmi_properties.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/snet~subversion/!svn/ver/2/snet/db/migrate/20090826194840_create_wmi_properties.rb
+END
+20100127175642_create_configurations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/snet~subversion/!svn/ver/24/snet/db/migrate/20100127175642_create_configurations.rb
+END
+20091111202816_create_ubications.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/snet~subversion/!svn/ver/17/snet/db/migrate/20091111202816_create_ubications.rb
+END
+20090826191922_create_wmi_events.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/snet~subversion/!svn/ver/2/snet/db/migrate/20090826191922_create_wmi_events.rb
+END
+20091026170124_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/snet~subversion/!svn/ver/13/snet/db/migrate/20091026170124_create_users.rb
+END
+20091105210530_add_type_to_alarms.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/snet~subversion/!svn/ver/16/snet/db/migrate/20091105210530_add_type_to_alarms.rb
+END
+20091014212845_create_reports.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/snet~subversion/!svn/ver/7/snet/db/migrate/20091014212845_create_reports.rb
+END
+20091014153353_create_clients.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/snet~subversion/!svn/ver/7/snet/db/migrate/20091014153353_create_clients.rb
+END
+20090826192330_create_wmi_namespaces.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/snet~subversion/!svn/ver/2/snet/db/migrate/20090826192330_create_wmi_namespaces.rb
+END
+20090831001401_add_login_pass_to_workstations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/snet~subversion/!svn/ver/4/snet/db/migrate/20090831001401_add_login_pass_to_workstations.rb
+END
+20091105201837_add_wmi_property_id_to_alarms.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/snet~subversion/!svn/ver/16/snet/db/migrate/20091105201837_add_wmi_property_id_to_alarms.rb
+END
+20090826202022_create_workstations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/snet~subversion/!svn/ver/2/snet/db/migrate/20090826202022_create_workstations.rb
+END
+20091015195049_create_tools.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/snet~subversion/!svn/ver/8/snet/db/migrate/20091015195049_create_tools.rb
+END
+20091118194206_add_rol_to_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/snet~subversion/!svn/ver/23/snet/db/migrate/20091118194206_add_rol_to_users.rb
+END
+20091111235246_add_state_to_wmi_tables.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/snet~subversion/!svn/ver/20/snet/db/migrate/20091111235246_add_state_to_wmi_tables.rb
+END
+20091105165129_add_alarm_to_workstations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/snet~subversion/!svn/ver/16/snet/db/migrate/20091105165129_add_alarm_to_workstations.rb
+END
+20090826202218_create_hardware_reports.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/snet~subversion/!svn/ver/2/snet/db/migrate/20090826202218_create_hardware_reports.rb
+END
+20090826202348_create_software_reports.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/snet~subversion/!svn/ver/2/snet/db/migrate/20090826202348_create_software_reports.rb
+END
+20090826202152_create_hardwares.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/snet~subversion/!svn/ver/2/snet/db/migrate/20090826202152_create_hardwares.rb
+END
+20090826202248_create_softwares.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/snet~subversion/!svn/ver/2/snet/db/migrate/20090826202248_create_softwares.rb
+END
+20090830233148_create_alarms.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/snet~subversion/!svn/ver/3/snet/db/migrate/20090830233148_create_alarms.rb
+END

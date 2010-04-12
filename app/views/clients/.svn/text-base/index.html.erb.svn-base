@@ -1,0 +1,30 @@
+<h1>Listing clients</h1>
+
+<table>
+  <tr>
+    <th>Wmi namespace</th>
+    <th>Wmi class</th>
+    <th>Wmi property</th>
+    <th>Wmi namespace name</th>
+    <th>Wmi class name</th>
+    <th>Wmi property name</th>
+  </tr>
+
+<% @clients.each do |client| %>
+  <tr>
+    <td><%=h client.wmi_namespace_id %></td>
+    <td><%=h client.wmi_class_id %></td>
+    <td><%=h client.wmi_property_id %></td>
+    <td><%=h client.wmi_namespace_name %></td>
+    <td><%=h client.wmi_class_name %></td>
+    <td><%=h client.wmi_property_name %></td>
+    <td><%= link_to 'Show', client %></td>
+    <td><%= link_to 'Edit', edit_client_path(client) %></td>
+    <td><%= link_to 'Destroy', client, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New client', new_client_path %>

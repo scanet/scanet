@@ -1,0 +1,12 @@
+
+Starting Nmap 4.76 ( http://nmap.org ) at 2010-01-27 11:05 COT
+Interesting ports on 192.168.0.101:
+Not shown: 995 closed ports
+PORT     STATE SERVICE
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3000/tcp open  ppp
+4000/tcp open  remoteanything
+
+Nmap done: 1 IP address (1 host up) scanned in 0.22 seconds

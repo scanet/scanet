@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/snet~subversion/!svn/ver/2/snet/test
+END
+test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/snet~subversion/!svn/ver/2/snet/test/test_helper.rb
+END

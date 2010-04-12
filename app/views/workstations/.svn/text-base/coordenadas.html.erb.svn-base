@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Insertar Equipos</title>
+  </head>
+
+  <body onload="setvars()">
+  <script type="text/javascript">
+  function gup(name)
+  {
+    name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+    var regexS = "[\\?&]"+name+"=([^&#]*)";
+    var regex = new RegExp(regexS);
+    var results = regex.exec(window.location.href);
+    if(results == null)
+      return "";
+    else
+      return results[1]
+  }
+  function setvars()
+  {
+    document.coordenadas.x.value = gup('x');
+    document.coordenadas.y.value = gup('y');
+  }
+</script>
+<form name="coordenadas" id="coordenadas" action="/workstations/new">
+  <input name="x" id="x" type="hidden">
+  <input name="y" id="y" type="hidden">
+  <%#= select_tag("workstation", options_for_select(@workstations.collect{ |w| [w.name, w.id]} )) %>
+  <input type="submit" value="Continuar">
+</form>
+
+</body>
+</html>

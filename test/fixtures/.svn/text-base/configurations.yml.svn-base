@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  ip: MyString
+  map_path: MyString
+  report_time: 2010-01-27 12:56:42
+  report_seq: 1
+
+two:
+  ip: MyString
+  map_path: MyString
+  report_time: 2010-01-27 12:56:42
+  report_seq: 1

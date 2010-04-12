@@ -1,0 +1,23 @@
+<h1>New hardware</h1>
+
+<% form_for(@hardware) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :workstation_id %><br />
+    <%= f.text_field :workstation_id %>
+  </p>
+  <p>
+    <%= f.label :wmi_property_id %><br />
+    <%= f.text_field :wmi_property_id %>
+  </p>
+  <p>
+    <%= f.label :value %><br />
+    <%= f.text_field :value %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', hardwares_path %>

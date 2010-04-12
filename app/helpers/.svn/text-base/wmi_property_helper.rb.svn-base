@@ -1,0 +1,2 @@
+module WmiPropertyHelper
+end

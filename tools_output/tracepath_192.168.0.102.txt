@@ -1,0 +1,4 @@
+ 1:  linuxdev.local (192.168.0.102)                         0.176ms pmtu 16436
+ 1:  linuxdev.local (192.168.0.102)                         0.116ms reached
+ 1:  linuxdev.local (192.168.0.102)                         0.110ms reached
+     Resume: pmtu 16436 hops 1 back 64 

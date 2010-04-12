@@ -1,0 +1,17 @@
+<table class="wmi" cellspacing="0">
+  <tr>
+    <th class="wmi" colspan="3" align="center"><b>PARAMETROS DE MONITOREO ACTUALES</b></th>
+  </tr>
+  <tr>
+    <td class="wmi" style="font-weight:bold">Namespace</td>
+    <td class="wmi" style="font-weight:bold">Class</td>
+    <td class="wmi" style="font-weight:bold">Property</td>
+  </tr>
+<% @wmi_rule.each do |r| %>
+  <tr>
+    <td class="wmi"><%=h r.wmi_namespace_name %></td>
+    <td class="wmi"><%=h r.wmi_class_name %></td>
+    <td class="wmi"><%=h r.wmi_property_name %></td>
+  </tr>
+<% end %>
+</table>

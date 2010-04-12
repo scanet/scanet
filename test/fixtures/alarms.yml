@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  workstation_id: 1
+  original: MyString
+  reported: MyString
+
+two:
+  workstation_id: 1
+  original: MyString
+  reported: MyString

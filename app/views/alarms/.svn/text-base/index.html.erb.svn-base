@@ -1,0 +1,44 @@
+<%= render :partial => "admin/section_top" %>
+
+<table class="wmi" cellpadding="0">
+  <tr>
+    <th class="wmi">Equipo</th>
+    <th class="wmi">Propiedad</th>
+    <th class="wmi">Valor Original</th>
+    <th class="wmi">Valor Reportado</th>
+    <th class="wmi">Fecha</th>
+    <!--<th class="wmi" colspan="3">Acciones</th>-->
+  </tr>
+
+<% @alarms.each do |alarm| %>
+  <tr>
+    <td class="wmi" style="color:maroon">
+      <b><%=h alarm.workstation.name %></b><br>
+      <%=h alarm.workstation.ip %>
+    </td>
+    <td class="wmi" style="color:navy">
+      <b><%=h alarm.wmi_property.wmi_class.alias %></b><br>
+      <%=h alarm.wmi_property.alias %>
+    </td>
+    <td class="wmi" style="color:green;text-align:center">
+      <b><%=h alarm.original %></b>
+    </td>
+    <td class="wmi" style="color:red;text-align:center">
+      <b><%=h alarm.reported.blank? ? "SIN DATOS" : alarm.reported %></b>
+    </td>
+    <td class="wmi">
+      <%=h alarm.created_at.in_time_zone("Bogota"). to_s %>
+    </td>
+    <!--
+    <td class="wmi"><%= link_to 'Ver detalles' %><%#= link_to 'Ver detalles', alarm -%></td>
+    <td class="wmi"><%= link_to 'Ignorar', {:action => "ignore", :id => alarm.id}, {:confirm => Alarm.ignore_message} %></td>
+    <td class="wmi"><%= link_to 'Ver equipo' %><%#= link_to 'Ver equipo' %></td>
+    -->
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%#= link_to 'New alarm', new_alarm_path %>
+<%= render :partial => "admin/section_foot" %>

@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <%= javascript_include_tag "script" %>
+    <%= stylesheet_link_tag 'scaffold' %>
+    <%= stylesheet_link_tag 'style', :media => "screen" %>
+    <title>Insertar Equipos</title>
+  </head>
+  <body>
+    <%= render :partial => "admin/section_top" %>
+    <div class="wmi_div">
+      <h4>Comando: <%= @console_command %></h4>
+      <h4>Respuesta:</h4>
+      <%= @final_output %><!--
+      <br><br>
+      <h4>Código de salida: </h4>
+      <%#= @exitcode %> -->
+    <br><br>
+    <form method="post">
+    <center>
+      <input type="button" value="Cerrar Ventana" onclick="window.close()">
+    </center>
+    </form>
+    </div>
+    <%= render :partial => "admin/section_foot" %>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+#page<< "new Effect.BlindDown('webservice_response_div')"
+page.replace_html "wmi_properties_response_div", :partial => "wmi_properties", :locals => {:hardware => @hardware}
+page.visual_effect("SlideDown", "wmi_properties_response_div", :duration => 2)
+page.replace_html "wmi_properties_response", content_tag(:span, "<b>COMPLETADO</b>", :id => "saved_wmi_properties_response", :style => "color:red")
+page.visual_effect(:fade, "saved_wmi_properties_response", :duration => 3)

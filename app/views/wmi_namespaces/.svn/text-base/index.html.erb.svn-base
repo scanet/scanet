@@ -1,0 +1,28 @@
+<%= render :partial => "admin/section_top" %>
+<%= link_to "Consultar Base de Datos MSDN WMI", "http://msdn.microsoft.com/en-us/library/aa394084(VS.85,loband).aspx", :target => "_blank" %>
+<br><br>
+<table class="wmi" cellspacing="0">
+  <tr>
+    <th class="wmi">Nombre</th>
+    <th class="wmi">Alias</th>
+    <th class="wmi">Descripción</th>
+    <th class="wmi" colspan="3">Acciones</th>
+  </tr>
+<% @wmi_namespaces.each do |wmi_namespace| %>
+  <tr>
+    <td class="wmi"><%=h wmi_namespace.name %></td>
+    <td class="wmi"><%=h wmi_namespace.alias %></td>
+    <td class="wmi"><%=h wmi_namespace.description %></td>
+    <td class="wmi"><%= link_to 'Ver', wmi_namespace %></td>
+    <td class="wmi"><%= link_to 'Editar', edit_wmi_namespace_path(wmi_namespace) %></td>
+    <td class="wmi"><%= link_to 'Eliminar', wmi_namespace, :confirm => 'Está seguro?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Nuevo WMI NameSpace', new_wmi_namespace_path %>
+<br>
+<%= link_to 'Volver a Configuración', "admin/wmi_configuration/0" %>
+<%= render :partial => "admin/section_foot" %>

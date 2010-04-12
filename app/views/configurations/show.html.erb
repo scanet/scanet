@@ -1,0 +1,25 @@
+<%= render :partial => "admin/section_top" %>
+<div class="wmi_div">
+<p>
+  <b>Dirección IP del servidor:</b>
+  <%=h @configuration.ip %>
+</p>
+
+<p>
+  <b>Ruta del Plano:</b>
+  <%=h @configuration.map_path %>
+</p>
+
+<p>
+  <b>Hora de envio del reporte:</b>
+  <%=h @configuration.report_time %>
+</p>
+
+<p>
+  <b>Secuencia de envio del reporte:</b>
+  Cada <%=h @configuration.report_seq %> horas.
+</p>
+
+<%= link_to 'Cambiar configuración', edit_configuration_path(@configuration) %>
+</div>
+<%= render :partial => "admin/section_foot" %>

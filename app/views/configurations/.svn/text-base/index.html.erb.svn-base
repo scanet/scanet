@@ -1,0 +1,27 @@
+<h1>Listing configurations</h1>
+
+<table>
+  <tr>
+    <th>IP del Servidor</th>
+    <td><%= @configuration.ip %></td>
+    <th>Ruta del Plano</th>
+    <th>Hora de Reporte - Clientes</th>
+    <th>Intervalo de Reportes (Cada X Horas)</th>
+  </tr>
+<!--
+<%# @configurations.each do |configuration| %>
+  <tr>
+    <td><%#=h configuration.ip %></td>
+    <td><%#=h configuration.map_path %></td>
+    <td><%#=h configuration.report_time %></td>
+    <td><%#=h configuration.report_seq %></td>
+    <td><%#= link_to 'Show', configuration %></td>
+    <td><%#= link_to 'Edit', edit_configuration_path(configuration) %></td>
+    <td><%#= link_to 'Destroy', configuration, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<%# end %> -->
+</table>
+
+<br />
+
+<%= link_to 'New configuration', new_configuration_path %>

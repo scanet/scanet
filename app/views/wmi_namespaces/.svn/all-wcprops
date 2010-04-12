@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/snet~subversion/!svn/ver/2/snet/app/views/wmi_namespaces
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/snet~subversion/!svn/ver/2/snet/app/views/wmi_namespaces/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/snet~subversion/!svn/ver/10/snet/app/views/wmi_namespaces/index.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/snet~subversion/!svn/ver/2/snet/app/views/wmi_namespaces/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/snet~subversion/!svn/ver/2/snet/app/views/wmi_namespaces/show.html.erb
+END

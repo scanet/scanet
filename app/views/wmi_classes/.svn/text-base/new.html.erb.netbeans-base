@@ -1,0 +1,33 @@
+<%= render :partial => "admin/section_top" %>
+<div class="wmi_div">
+<% form_for(@wmi_class) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label "WMI Namespace" %><br />
+    <%= select("wmi_class","wmi_namespace_id", WmiNamespace.options, {}) %>
+  </p>
+  <p>
+    Tipo<br />
+    <%= select("wmi_class","data_type", WmiClass.data_type, {}) %>
+  </p>
+  <p>
+    <%= f.label "Nombre" %><br />
+    <%= f.text_field :name, :value => "Win32_" %>
+  </p>
+  <p>
+    <%= f.label "Alias" %><br />
+    <%= f.text_field :alias %>
+  </p>
+  <p>
+    <%= f.label "Descripción" %><br />
+    <%= f.text_area :description, :cols => 34, :rows => 3 %>
+  </p>
+  <p>
+    <%= f.submit 'Crear' %>
+  </p>
+<% end %>
+
+<%= link_to 'Atras', wmi_classes_path %>
+</div>
+<%= render :partial => "admin/section_foot" %>

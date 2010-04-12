@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/snet~subversion/!svn/ver/2/snet/test/unit
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/snet~subversion/!svn/ver/13/snet/test/unit/user_test.rb
+END
+client_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/snet~subversion/!svn/ver/7/snet/test/unit/client_test.rb
+END
+wmi_class_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/snet~subversion/!svn/ver/2/snet/test/unit/wmi_class_test.rb
+END
+workstation_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/snet~subversion/!svn/ver/2/snet/test/unit/workstation_test.rb
+END
+software_report_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/snet~subversion/!svn/ver/2/snet/test/unit/software_report_test.rb
+END
+hardware_report_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/snet~subversion/!svn/ver/2/snet/test/unit/hardware_report_test.rb
+END
+software_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/snet~subversion/!svn/ver/2/snet/test/unit/software_test.rb
+END
+alarm_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/snet~subversion/!svn/ver/3/snet/test/unit/alarm_test.rb
+END
+wmi_method_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/snet~subversion/!svn/ver/2/snet/test/unit/wmi_method_test.rb
+END
+wmi_event_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/snet~subversion/!svn/ver/2/snet/test/unit/wmi_event_test.rb
+END
+hardware_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/snet~subversion/!svn/ver/2/snet/test/unit/hardware_test.rb
+END
+wmi_property_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/snet~subversion/!svn/ver/2/snet/test/unit/wmi_property_test.rb
+END
+configuration_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/snet~subversion/!svn/ver/24/snet/test/unit/configuration_test.rb
+END
+wmi_namespace_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/snet~subversion/!svn/ver/2/snet/test/unit/wmi_namespace_test.rb
+END
+report_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/snet~subversion/!svn/ver/7/snet/test/unit/report_test.rb
+END
+tool_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/snet~subversion/!svn/ver/9/snet/test/unit/tool_test.rb
+END
+ubication_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/snet~subversion/!svn/ver/17/snet/test/unit/ubication_test.rb
+END

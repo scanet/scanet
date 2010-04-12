@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/snet~subversion/!svn/ver/2/snet/app/views/layouts
+END
+workstations.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/snet~subversion/!svn/ver/2/snet/app/views/layouts/workstations.html.erb
+END
+wmi_properties.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/snet~subversion/!svn/ver/2/snet/app/views/layouts/wmi_properties.html.erb
+END
+software_reports.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/snet~subversion/!svn/ver/2/snet/app/views/layouts/software_reports.html.erb
+END
+wmi_classes.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/snet~subversion/!svn/ver/2/snet/app/views/layouts/wmi_classes.html.erb
+END
+hardware_reports.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/snet~subversion/!svn/ver/2/snet/app/views/layouts/hardware_reports.html.erb
+END
+softwares.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/snet~subversion/!svn/ver/2/snet/app/views/layouts/softwares.html.erb
+END
+alarms.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/snet~subversion/!svn/ver/3/snet/app/views/layouts/alarms.html.erb
+END
+wmi_methods.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/snet~subversion/!svn/ver/2/snet/app/views/layouts/wmi_methods.html.erb
+END
+wmi_events.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/snet~subversion/!svn/ver/2/snet/app/views/layouts/wmi_events.html.erb
+END
+hardwares.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/snet~subversion/!svn/ver/2/snet/app/views/layouts/hardwares.html.erb
+END
+admin.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/snet~subversion/!svn/ver/17/snet/app/views/layouts/admin.html.erb
+END
+configurations.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/snet~subversion/!svn/ver/24/snet/app/views/layouts/configurations.html.erb
+END
+wmi_namespaces.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/snet~subversion/!svn/ver/2/snet/app/views/layouts/wmi_namespaces.html.erb
+END
+reports.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/snet~subversion/!svn/ver/7/snet/app/views/layouts/reports.html.erb
+END
+ubications.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/snet~subversion/!svn/ver/17/snet/app/views/layouts/ubications.html.erb
+END
+tools.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/snet~subversion/!svn/ver/8/snet/app/views/layouts/tools.html.erb
+END
+clients.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/snet~subversion/!svn/ver/7/snet/app/views/layouts/clients.html.erb
+END

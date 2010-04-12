@@ -1,0 +1,22 @@
+<%= render :partial => "admin/section_top" %>
+<div class="wmi_div">
+<p>
+  <b>Nombre:</b>
+  <%=h @wmi_namespace.name %>
+</p>
+
+<p>
+  <b>Alias:</b>
+  <%=h @wmi_namespace.alias %>
+</p>
+
+<p>
+  <b>Descripción:</b>
+  <%=h @wmi_namespace.description %>
+</p>
+
+
+<%= link_to 'Editar', edit_wmi_namespace_path(@wmi_namespace) %> |
+<%= link_to 'Atras', wmi_namespaces_path %>
+</div>
+<%= render :partial => "admin/section_foot" %>

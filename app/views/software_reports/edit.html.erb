@@ -1,0 +1,24 @@
+<h1>Editing software_report</h1>
+
+<% form_for(@software_report) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :workstation_id %><br />
+    <%= f.text_field :workstation_id %>
+  </p>
+  <p>
+    <%= f.label :wmi_property_id %><br />
+    <%= f.text_field :wmi_property_id %>
+  </p>
+  <p>
+    <%= f.label :value %><br />
+    <%= f.text_field :value %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @software_report %> |
+<%= link_to 'Back', software_reports_path %>

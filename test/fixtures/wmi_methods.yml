@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  class_id: 1
+  name: MyString
+  alias: MyString
+  description: MyString
+  method: MyString
+  parameter: MyString
+
+two:
+  class_id: 1
+  name: MyString
+  alias: MyString
+  description: MyString
+  method: MyString
+  parameter: MyString

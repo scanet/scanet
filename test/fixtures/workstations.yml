@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  x: MyString
+  y: MyString
+  ip: MyString
+  code: MyString
+  mac: MyString
+  name: MyString
+  ubication_id: 1
+  type: MyString
+  owner_id: 1
+
+two:
+  x: MyString
+  y: MyString
+  ip: MyString
+  code: MyString
+  mac: MyString
+  name: MyString
+  ubication_id: 1
+  type: MyString
+  owner_id: 1

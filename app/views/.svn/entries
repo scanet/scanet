@@ -1,0 +1,122 @@
+9
+
+dir
+2
+https://kenai.com/svn/snet~subversion/snet/app/views
+https://kenai.com/svn/snet~subversion
+
+
+
+2009-08-30T22:53:44.331121Z
+2
+marcomontes
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+wmi_methods
+dir
+
+alarms
+dir
+
+wmi_events
+dir
+
+hardwares
+dir
+
+session
+dir
+
+admin
+dir
+
+configurations
+dir
+
+wmi_namespaces
+dir
+
+reports
+dir
+
+ubications
+dir
+
+layouts
+dir
+
+tools
+dir
+
+users
+dir
+
+clients
+dir
+
+site
+dir
+
+sessions
+dir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deleted
+
+workstations
+dir
+
+wmi_properties
+dir
+
+software_reports
+dir
+
+wmi_classes
+dir
+
+hardware_reports
+dir
+
+softwares
+dir
+

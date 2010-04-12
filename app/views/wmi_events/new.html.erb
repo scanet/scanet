@@ -1,0 +1,31 @@
+<h1>New wmi_event</h1>
+
+<% form_for(@wmi_event) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :wmi_namespace_id %><br />
+    <%= f.text_field :wmi_namespace_id %>
+  </p>
+  <p>
+    <%= f.label :classname %><br />
+    <%= f.text_field :classname %>
+  </p>
+  <p>
+    <%= f.label :eventname %><br />
+    <%= f.text_field :eventname %>
+  </p>
+  <p>
+    <%= f.label :condition %><br />
+    <%= f.text_field :condition %>
+  </p>
+  <p>
+    <%= f.label :value %><br />
+    <%= f.text_field :value %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', wmi_events_path %>

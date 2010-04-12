@@ -1,0 +1,18 @@
+<p>
+  <b>Workstation:</b>
+  <%=h @software_report.workstation_id %>
+</p>
+
+<p>
+  <b>Wmi property:</b>
+  <%=h @software_report.wmi_property_id %>
+</p>
+
+<p>
+  <b>Value:</b>
+  <%=h @software_report.value %>
+</p>
+
+
+<%= link_to 'Edit', edit_software_report_path(@software_report) %> |
+<%= link_to 'Back', software_reports_path %>

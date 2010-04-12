@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/snet~subversion/!svn/ver/2/snet/app/views/wmi_classes
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/snet~subversion/!svn/ver/2/snet/app/views/wmi_classes/edit.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/snet~subversion/!svn/ver/21/snet/app/views/wmi_classes/index.html.erb
+END
+change_state.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/snet~subversion/!svn/ver/17/snet/app/views/wmi_classes/change_state.rjs
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/snet~subversion/!svn/ver/14/snet/app/views/wmi_classes/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/snet~subversion/!svn/ver/2/snet/app/views/wmi_classes/show.html.erb
+END

@@ -1,0 +1,24 @@
+<h1>Listing hardware_reports</h1>
+
+<table>
+  <tr>
+    <th>Workstation</th>
+    <th>Wmi property</th>
+    <th>Value</th>
+  </tr>
+
+<% @hardware_reports.each do |hardware_report| %>
+  <tr>
+    <td><%=h hardware_report.workstation_id %></td>
+    <td><%=h hardware_report.wmi_property_id %></td>
+    <td><%=h hardware_report.value %></td>
+    <td><%= link_to 'Show', hardware_report %></td>
+    <td><%= link_to 'Edit', edit_hardware_report_path(hardware_report) %></td>
+    <td><%= link_to 'Destroy', hardware_report, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New hardware_report', new_hardware_report_path %>

@@ -1,0 +1,2 @@
+page.replace_html "state_response#{@property.id}", content_tag(:span, "OK", :id => "saved_state_response#{@property.id}")
+page.visual_effect(:fade, "saved_state_response#{@property.id}", :duration => 4)

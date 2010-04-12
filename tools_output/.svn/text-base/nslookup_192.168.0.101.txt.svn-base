@@ -1,0 +1,5 @@
+Server:		192.168.0.1
+Address:	192.168.0.1#53
+
+** server can't find 101.0.168.192.in-addr.arpa.: NXDOMAIN
+

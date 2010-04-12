@@ -1,0 +1,22 @@
+<%= render :partial => "admin/section_top" %>
+<div class="wmi_div">
+<% form_for(@ubication) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label "Nombre" %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label "Descripción" %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.submit 'Actualizar' %>
+  </p>
+<% end %>
+
+<%= link_to 'Ver', @ubication %> |
+<%= link_to 'Stras', ubications_path %>
+</div>
+<%= render :partial => "admin/section_foot" %>

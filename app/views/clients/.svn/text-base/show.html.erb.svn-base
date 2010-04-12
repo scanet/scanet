@@ -1,0 +1,33 @@
+<p>
+  <b>Wmi namespace:</b>
+  <%=h @client.wmi_namespace_id %>
+</p>
+
+<p>
+  <b>Wmi class:</b>
+  <%=h @client.wmi_class_id %>
+</p>
+
+<p>
+  <b>Wmi property:</b>
+  <%=h @client.wmi_property_id %>
+</p>
+
+<p>
+  <b>Wmi namespace name:</b>
+  <%=h @client.wmi_namespace_name %>
+</p>
+
+<p>
+  <b>Wmi class name:</b>
+  <%=h @client.wmi_class_name %>
+</p>
+
+<p>
+  <b>Wmi property name:</b>
+  <%=h @client.wmi_property_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_client_path(@client) %> |
+<%= link_to 'Back', clients_path %>
